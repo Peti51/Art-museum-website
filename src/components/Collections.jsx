@@ -1,6 +1,6 @@
 import '../styles/Main.scss';
 import { Searchbar } from "./Searchbar";
-import { Header } from "..components/Header";
+import { Header } from "../components/Header";
 import { CollectionContent } from "./CollectionContent";
 import { Slidingmenu } from "./Slidingmenu";
 import { AnimatedPage } from "../components/Animation";
