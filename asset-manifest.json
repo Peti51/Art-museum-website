@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Art-museum/static/css/main.2a8c1176.css",
+    "main.js": "/Art-museum/static/js/main.48a2fc30.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Art-museum/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Collection-picture-2.png": "/Art-museum/static/media/Collection-picture-2.7b417b4d6f78def5cc13.png",
+    "static/media/Collection-picture-4.png": "/Art-museum/static/media/Collection-picture-4.de0626c9d9772a11264b.png",
+    "static/media/Collection-picture-1.png": "/Art-museum/static/media/Collection-picture-1.c48e54407709047ef99c.png",
+    "static/media/Collection-picture-6.png": "/Art-museum/static/media/Collection-picture-6.a88719d351c56ee529c1.png",
+    "static/media/Collection-picture-5.png": "/Art-museum/static/media/Collection-picture-5.f15e01acd80ba9c50e85.png",
+    "static/media/Collection-picture-3.png": "/Art-museum/static/media/Collection-picture-3.b920aca74bfb72681988.png",
+    "index.html": "/Art-museum/index.html",
+    "static/media/sliding-menu-img-1.svg": "/Art-museum/static/media/sliding-menu-img-1.7dbf90770165f3d8d1870e91c75fc505.svg",
+    "static/media/slidingmenu-img-2.svg": "/Art-museum/static/media/slidingmenu-img-2.61b91df722b8cdbf702a74c66c9d8001.svg",
+    "static/media/slidingmenu-img-6.svg": "/Art-museum/static/media/slidingmenu-img-6.b4dcd721844a73f94b1c23ba3db419e0.svg",
+    "static/media/slidingmenu-img-5.svg": "/Art-museum/static/media/slidingmenu-img-5.6d80b5cb684ee45e56dda87e0f9242bb.svg",
+    "static/media/slidingmenu-img-4.svg": "/Art-museum/static/media/slidingmenu-img-4.d6df8eaa4bda54149cd6a0766ebcff8a.svg",
+    "static/media/searchbutton-white.svg": "/Art-museum/static/media/searchbutton-white.01779b376031db7f4f05b1673f5f49c1.svg",
+    "static/media/slidingmenu-img-3.svg": "/Art-museum/static/media/slidingmenu-img-3.06cae35c20ce68ac4bb83ab6da068ed7.svg",
+    "static/media/Menu-burger-icon.svg": "/Art-museum/static/media/Menu-burger-icon.f7eca14caf867c17304b7fed77acbb70.svg",
+    "main.2a8c1176.css.map": "/Art-museum/static/css/main.2a8c1176.css.map",
+    "main.48a2fc30.js.map": "/Art-museum/static/js/main.48a2fc30.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Art-museum/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a8c1176.css",
+    "static/js/main.48a2fc30.js"
+  ]
+}
