@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path='/Art-museu' 
+          <Route path='/Art-museum' 
             element={
               <Collections
                 isMenuOpen={isMenuOpen}
