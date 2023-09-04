@@ -1,0 +1,38 @@
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: $overflow-property;
+  position: relative;
+}
+
+.main-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  position: relative;
+}
+
+.slidingmenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: $theme-color;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+
+.tickets-container.menu-open {
+  .slidingmenu {
+    transform: translateX(0);
+  }
+}
+
+.content-hidden {
+  transform: translateX(85%);
+  transition: transform $transform-duration ease;
+  overflow: $overflow-property;
+}

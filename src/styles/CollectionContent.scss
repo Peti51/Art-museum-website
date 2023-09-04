@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    &-grid-container {
+      justify-content: center;
+      width: $container-width;
+      display: grid;
+      grid-template-columns: 48% 48%;
+      grid-column-gap: 4%;
+    }
+  
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: transform $transform-duration;
+    }
+  
+    &-image {
+      width: 100%;
+      margin-bottom: 6px;
+    }
+  
+    &-description {
+      width: 65%;
+      color: $theme-color;
+      font-family: $font-family;
+      font-size: 3vw;
+      font-style: normal;
+      font-weight: $font-weight-bold;
+      line-height: $line-height-normal;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+    }
+}
+
+.content-item:hover {
+  transform: scale(1.05);
+}
+
+.content-image:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}

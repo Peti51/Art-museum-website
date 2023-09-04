@@ -1,0 +1,106 @@
+.slidingmenu {
+  box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 85%;
+  background-color: $theme-color;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  transform: translateX(-110%);
+  transition: transform $transform-duration ease;
+
+  &-bigcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  &-itemcontainer {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
+    
+  }
+
+  &-searchimage-button {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    background: none;
+    border: none;
+    color: $slidingmenu-text-color;
+    margin-right: 36px;
+  }
+
+  &-searchbar {
+    width: 20vh;
+    border: 2px solid $slidingmenu-border-color;
+    color: $slidingmenu-border-color;
+    height: 42px;
+    flex-shrink: 0;
+    background-color: $theme-color;
+    display: flex;
+    align-items: center;
+    transition: transform $transform-duration;
+
+    &::placeholder {
+      padding-left: 13px;
+      color: $slidingmenu-text-color;
+      font-family: $font-family;
+      font-size: $font-size-18;
+      font-style: normal;
+      font-weight: $font-weight-bold;
+      line-height: $line-height-normal;
+    }
+
+    transition: transform $transform-duration;
+
+    &:hover {
+      transform: scale(1); 
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &-imgcontainer {
+    width: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &-img {
+    transition: transform $transform-duration;
+
+    &:hover {
+      transform: scale(1); 
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &-route {
+    color: $slidingmenu-text-color;
+    font-family: $font-family;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-normal;
+    text-decoration: none;
+    transition: transform $transform-duration;
+
+    &:hover {
+      transform: scale(1); 
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+}
+
+.slidingmenu.open {
+  transform: translateX(0);
+}
+
+.focused-input::placeholder {
+  padding: 0;
+}

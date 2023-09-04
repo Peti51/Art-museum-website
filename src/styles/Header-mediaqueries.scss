@@ -1,0 +1,80 @@
+@media screen and (min-width: 600px) {
+  
+
+  .nav-bar-route {
+    color: $theme-color;
+    text-align: left;
+    font-family: $font-family;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-normal;
+    list-style: none;
+    margin-right: 5px;
+    transition: transform $transform-duration;
+    text-decoration: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      transform: scale(1.15);
+      color: $text-color-selected;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    width: $container-width;
+    max-width: 1200px;
+    margin-bottom: 40px;
+
+    &-nav-bar {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-burger-button-container {
+      display: none;
+    }
+
+    &_big-container {
+      width: 100%;
+    }
+
+    &-section {
+      font-size: 25px;
+    }
+
+    &-title {
+      line-height: 20px;
+      font-size: 15px;
+    }
+  }
+
+  .nav-bar-route {
+    color: $theme-color;
+    font-family: $font-family;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-normal;
+    list-style: none;
+    margin-right: 12px;
+    transition: transform $transform-duration;
+    text-decoration: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      transform: scale(1.15);
+      color: $text-color-selected;
+    }
+  }
+
+  
+}

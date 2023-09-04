@@ -1,0 +1,39 @@
+@media screen and (min-width: 1024px) {
+  .content-container {
+    width: $container-width;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content {
+    width: 100%;
+    &-grid-container {
+      justify-content: center;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-template-rows: 330px 330px;
+      grid-column-gap: 5%;
+      grid-row-gap: 5%;
+    }
+
+    &-description {
+      width: 80%;
+      font-size: 20px;
+    }
+  }
+
+  .searchbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    &-container {
+      width: 50%;
+    }
+  }
+
+}

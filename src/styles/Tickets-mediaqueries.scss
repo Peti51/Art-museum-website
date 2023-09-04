@@ -1,0 +1,105 @@
+@media screen and (min-width: 1024px) {
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Tickets {
+    &-big-container {
+      display: flex;
+      justify-content: space-between;
+      width: $container-width;
+      max-width: 1200px;
+    }
+  }
+
+  .ticket {
+    width: 50%;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+    &-tab-bigcontainer {
+      width: 100%;
+    }
+
+    &-Content-tab-description {
+      margin-bottom: 25px;
+    }
+
+    &-price {
+      margin-bottom: 20px;
+    }
+
+    &-tab-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; // Spread tabs evenly
+      background-color: #f0f0f0; // Background color for the tabs container
+      border-radius: 10px; // Rounded corners
+      box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+      overflow: hidden; // Ensure tabs don't overflow
+    }
+  
+    .ticket-Content-tab {
+      flex: 1; // Equal width for each tab
+      padding: 10px;
+      background-color: #ffffff; // Background color for tabs
+      border: 2px solid #e0e0e0; // Border for tabs
+      color: #333333; // Text color for tabs
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  
+      &.ticket-Content-selected {
+        background-color: $theme-color; // Selected tab background color
+        color: #ffffff; // Selected tab text color
+        border-color: $theme-color; // Selected tab border color
+      }
+  
+      &:hover {
+        background-color: $theme-color; // Hover background color
+        color: #ffffff; // Hover text color
+        border-color: $theme-color; // Hover border color
+      }
+    }
+
+    &-buying-button {
+      margin-bottom: 25px;
+    }
+  }
+
+  .title {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    &-title {
+      display: unset;
+      text-align: left;
+      font-size: 50px;
+    }
+  }
+
+  .button-number {
+    color: $text-color-selected;
+  }
+
+  .button-number-with-price {
+    color: $theme-color;
+  }
+
+
+  .button-bigcontainer {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    &-title {
+      font-size: 70px;
+    }
+  }
+}
