@@ -1,6 +1,6 @@
   import React from "react";
   import "../styles/Main.scss";
-  import { AnimatedPage } from "../components/Animation";
+  import { AnimatedPage } from "./Animation";
   import { TicketContent } from "./TicketContent";
   import { Slidingmenu } from "./Slidingmenu";
 
