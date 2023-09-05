@@ -4,4 +4,4 @@ A design minden tekintetben teljesen responsive, azaz minden eszközön és kép
 
 A projekt fejlesztése során npm-et használtam a külső függőségek kezelésére és a build folyamat optimalizálására. A production buildet egyszerűen indíthatod el a "npm start" parancs segítségével, így a weboldal gyorsan és hatékonyan fut majd a valóságos környezetben is.
 
-DEMOLINK: https://Peti51.github.io/Art-museum/
+DEMOLINK: https://Peti51.github.io/Art-museum-website/
