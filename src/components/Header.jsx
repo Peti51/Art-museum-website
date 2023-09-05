@@ -22,7 +22,7 @@ const routes = [
   },
   {
     route: 'Collections',
-    path: '/',
+    path: '/Art-museum',
     imgUrl: slidingmenuImg3
   },
   {
