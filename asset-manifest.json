@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Art-museum/static/css/main.2a8c1176.css",
-    "main.js": "/Art-museum/static/js/main.14fdf37a.js",
+    "main.js": "/Art-museum/static/js/main.15ffc059.js",
     "static/js/787.28cb0dcd.chunk.js": "/Art-museum/static/js/787.28cb0dcd.chunk.js",
     "static/media/Collection-picture-2.png": "/Art-museum/static/media/Collection-picture-2.7b417b4d6f78def5cc13.png",
     "static/media/Collection-picture-4.png": "/Art-museum/static/media/Collection-picture-4.de0626c9d9772a11264b.png",
@@ -19,11 +19,11 @@
     "static/media/slidingmenu-img-3.svg": "/Art-museum/static/media/slidingmenu-img-3.06cae35c20ce68ac4bb83ab6da068ed7.svg",
     "static/media/Menu-burger-icon.svg": "/Art-museum/static/media/Menu-burger-icon.f7eca14caf867c17304b7fed77acbb70.svg",
     "main.2a8c1176.css.map": "/Art-museum/static/css/main.2a8c1176.css.map",
-    "main.14fdf37a.js.map": "/Art-museum/static/js/main.14fdf37a.js.map",
+    "main.15ffc059.js.map": "/Art-museum/static/js/main.15ffc059.js.map",
     "787.28cb0dcd.chunk.js.map": "/Art-museum/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a8c1176.css",
-    "static/js/main.14fdf37a.js"
+    "static/js/main.15ffc059.js"
   ]
 }
